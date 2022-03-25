@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-color: rgba(22, 21, 15, 0.575);
+  position: absolute;
+  margin-left: 400px;
+  border-radius: 50px;
+  width: 800px;
+  height: 800px;
+  display: block;
 }
 
 .App-logo {
@@ -35,4 +42,86 @@
   to {
     transform: rotate(360deg);
   }
+}
+.rank{
+  color:rgb(15, 225, 240);
+  margin-left: 200px;
+  /* border: 1px solid red; */
+  width: 300px;
+}
+.box{
+  padding: 5px;
+  /* height: 100px; */
+}
+.box .box1{
+  border-radius: 5px;
+  background-color: whitesmoke;
+  border: transparent;
+  color: rgb(50, 74, 182);
+  font-weight: bold;
+  width: 200px;
+  height: 20px;
+  display: flex;
+ text-align: center;
+ margin-left: 250px;
+ padding: 5px;
+}
+.box .box2{
+  border-radius: 5px;
+  background-color: whitesmoke;
+  border: transparent;
+  color: rgb(50, 74, 182);
+  margin-top: 10px;
+  font-weight: bold;
+  height: 20px;
+  width: 200px;
+  display: flex;
+  text-align: center;
+  margin-left: 250px;
+  padding: 5px;
+}
+.button{
+  background-color: whitesmoke;
+  color: rgb(61, 13, 233);
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 5px;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  top: 180px;
+  left: 290px;
+}
+.meme{
+  /* border: 1px solid red; */
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 200px;
+  width: 400px;
+  height: 400px;
+}
+.meme img{
+  /* border: 1px solid white; */
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  opacity:2
+}
+.top-1{
+  color:rgb(10, 237, 245);
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.top-2{
+  color:rgb(10, 237, 245);
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  font-weight: bolder;
+  font-size: 40px;
 }
